@@ -16,3 +16,7 @@ a {
   margin: 10px;
   padding-top: 10px;
 }
+
+.carousel-inner {
+  width: 100%;
+}
