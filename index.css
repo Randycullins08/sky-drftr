@@ -1,0 +1,18 @@
+body {
+  background-image: url("https://cdn.pixabay.com/photo/2016/03/09/15/18/stars-1246590_960_720.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.fab {
+  font-size: 30px;
+  margin: 10px;
+  padding-top: 10px;
+}
