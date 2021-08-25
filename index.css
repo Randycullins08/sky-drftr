@@ -1,9 +1,25 @@
-body {
+html {
   background-image: url("https://cdn.pixabay.com/photo/2016/03/09/15/18/stars-1246590_960_720.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
-  overflow-x: hidden;
+  overflow-x: scroll;
+  min-height: 100%;
+  max-height: 100vh;
+  overflow-y: scroll;
+}
+
+body {
+  font-family: "Almendra", serif;
+  background-image: url("https://cdn.pixabay.com/photo/2016/03/09/15/18/stars-1246590_960_720.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  overflow-x: scroll;
+  min-height: 100%;
+  max-height: 100vh;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -19,4 +35,13 @@ a {
 
 .carousel-inner {
   width: 100%;
+}
+
+.card {
+  background: inherit;
+}
+
+.btn-link {
+  text-decoration: none;
+  color: inherit;
 }
