@@ -37,6 +37,7 @@ a {
   width: 100%;
 }
 
+
 .card {
   background: inherit;
 }
@@ -44,4 +45,9 @@ a {
 .btn-link {
   text-decoration: none;
   color: inherit;
+}
+
+p {
+  font-weight: bold;
+  font-size: 18px;
 }
