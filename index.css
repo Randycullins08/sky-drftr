@@ -30,7 +30,6 @@ a {
 .fab {
   font-size: 30px;
   margin: 10px;
-  padding-top: 10px;
 }
 
 .carousel-inner {
@@ -40,14 +39,21 @@ a {
 
 .card {
   background: inherit;
+  color: white;
+}
+
+.btn:focus, a:focus, .btn:hover {
+  outline: none;
+  text-decoration: none;
+  box-shadow: none;
 }
 
 .btn-link {
-  text-decoration: none;
-  color: inherit;
+  color: white;
 }
 
 p {
   font-weight: bold;
   font-size: 18px;
 }
+
