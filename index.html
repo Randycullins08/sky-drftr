@@ -22,7 +22,11 @@
       href="https://fonts.googleapis.com/css2?family=Almendra&display=swap"
       rel="stylesheet"
     />
-
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>SKY DRFTR</title>
     <link
       rel="icon"
@@ -42,10 +46,10 @@
     >
       <img
         src="images/SKYDRFTR LOGO WHITE W BLACK BG (1).png"
-        width="100"
+        width="80"
         alt="logo"
+        class="logoImage"
       />
-      <a class="navbar-brand" href="#"></a>
       <button
         class="navbar-toggler"
         type="button"
@@ -54,13 +58,12 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div
-        class="collapse navbar-collapse justify-content-center"
-        id="skydrftrNavbar"
-      >
-        <ul class="navbar-nav m-auto pr-5">
+      <div class="collapse navbar-collapse" id="skydrftrNavbar">
+        <ul class="navbar-nav m-auto">
           <li class="nav-item m-auto active">
-            <a class="nav-link" href="#home"><i class="fa fa-lg"></i> Home</a>
+            <a class="nav-link m-auto" href="#home"
+              ><i class="fa fa-lg"></i> Home</a
+            >
           </li>
           <li class="nav-item m-auto active">
             <a class="nav-link" href="#videos"
@@ -97,21 +100,21 @@
           data-ride="carousel"
         >
           <div class="carousel-inner">
-            <div class="carousel-item active">
+            <div class="carousel-item active animate__animated animate__fadeIn">
               <img
                 src="https://scontent-den4-1.xx.fbcdn.net/v/t1.6435-9/91637402_553055745350525_2350755769990774784_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=973b4a&_nc_ohc=-u1me_2sFmIAX_7duKL&_nc_ht=scontent-den4-1.xx&oh=e142066c127e2fd5251ef9ef036f2ce6&oe=61422930"
                 class="d-block w-100"
                 alt="Trippy Dreamin"
               />
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item animate__animated animate__fadeIn">
               <img
                 src="https://m.media-amazon.com/images/I/91eEjmzvumL._SS500_.jpg"
                 class="d-block w-100"
                 alt="Crows & Carnivores"
               />
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item animate__animated animate__fadeIn">
               <img
                 src="https://scontent-den4-1.xx.fbcdn.net/v/t1.6435-9/240567910_865825740740189_7141078641443257143_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=973b4a&_nc_ohc=g8HRbkNotaUAX_3W9_w&_nc_ht=scontent-den4-1.xx&oh=e642660a1bf8cecb5713cc6a02d54058&oe=614A9611"
                 class="d-block w-100"
@@ -149,7 +152,7 @@
       </div>
 
       <!-- Studio Sessions -->
-      <div class="row-fluid m-auto mt-6 col-md-6">
+      <div class="row-fluid m-auto mt-6 col-md-6" data-aos="fade-in">
         <div class="embed-responsive embed-responsive-16by9">
           <iframe
             width="400"
@@ -170,7 +173,7 @@
       </div>
 
       <!-- Trippy Dreamin -->
-      <div class="row mt-5">
+      <div class="row mt-5" data-aos="fade-right">
         <div class="media col">
           <div class="col mr-4 embed-responsive embed-responsive-4by3">
             <iframe
@@ -243,7 +246,7 @@
       <!-- Trippy Dreamin End-->
 
       <!-- Crows & Carnivores -->
-      <div class="row mt-5">
+      <div class="row mt-5" data-aos="fade-left">
         <div class="media col">
           <div class="media-body">
             <div class="accordion" id="accordionOne">
@@ -322,7 +325,7 @@
       <div class="row justify-content-center mt-5" id="shows">
         <h1>Upcoming Shows</h1>
       </div>
-      <div class="row justify-content-center mt-3">
+      <div class="row justify-content-center mt-3" data-aos="fade-up">
         <img
           src="https://scontent-den4-1.xx.fbcdn.net/v/t1.6435-9/240436657_865563484099748_7631329372741383340_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=973b4a&_nc_ohc=hT8Cgx2K7IoAX91FgZl&_nc_ht=scontent-den4-1.xx&oh=484bf7319db0b8403c7b88c0c45b8a27&oe=614A1895"
           alt="Show Flyer"
@@ -339,14 +342,14 @@
       <div class="row justify-content-center mt-5" id="aboutUs">
         <h1>About Us</h1>
       </div>
-      <div class="row justify-content-center m-3">
+      <div class="row justify-content-center m-3" data-aos="fade-up">
         <img
           src="https://scontent-den4-1.xx.fbcdn.net/v/t1.6435-9/164401191_779348429387921_6678877853851861395_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=973b4a&_nc_ohc=bpqIqKwdyIQAX-yUadg&_nc_ht=scontent-den4-1.xx&oh=c9b1e7cfddd20461dc07992f2afde599&oe=614CD115"
           alt="Band Photo"
           class="col-md-6"
         />
       </div>
-      <div class="row justify-content-center mt-3">
+      <div class="row justify-content-center mt-3" data-aos="fade-up">
         <p class="col-md-6 m-4">
           Where is it that we go, Johnny, when we dream? In our waking hours,
           reluctantly we walk through the depths of the fog, not noticing the
@@ -365,9 +368,9 @@
           us shatter and reality does too. Are they not the same place though,
           Johnny? Is our world not molded by our perception of it? Is our
           perception not dulled by the fog? You don't remember me yet, Johnny,
-          but I need you to trust me. I need you to listen through the fog, and in
-          the silence, the voice that you hear is mine and it is also yours. I
-          need you to follow that voice, looking through the fog. The
+          but I need you to trust me. I need you to listen through the fog, and
+          in the silence, the voice that you hear is mine and it is also yours.
+          I need you to follow that voice, looking through the fog. The
           synchronicities were left by me and also by you. This breadcrumb trail
           will lead you back to me and also back to you, but are we not the
           same?
@@ -378,7 +381,7 @@
     <!-- End of Body -->
 
     <!-- Footer -->
-    <footer class="site-footer mt-3">
+    <footer class="site-footer mt-3" data-aos="zoom-in">
       <div class="container">
         <div class="row justify-content-center">
           <img
@@ -412,9 +415,7 @@
           ></a>
         </div>
         <div class="row justify-content-center mt-1">
-            <p>
-              All Artwork Done By Annalei Lake
-            </p>
+          <p>All Artwork Done By Annalei Lake</p>
         </div>
       </div>
     </footer>
@@ -432,6 +433,13 @@
       integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 2000,
+        easing: "ease",
+      });
+    </script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--

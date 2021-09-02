@@ -1,24 +1,20 @@
 html {
   background-image: url("https://cdn.pixabay.com/photo/2016/03/09/15/18/stars-1246590_960_720.jpg");
-  background-size: cover;
   background-repeat: no-repeat;
-  color: white;
-  overflow-x: scroll;
-  min-height: 100%;
-  max-height: 100vh;
-  overflow-y: scroll;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height:100%;
+  scroll-behavior: smooth;
 }
 
 body {
   font-family: "Almendra", serif;
   background-image: url("https://cdn.pixabay.com/photo/2016/03/09/15/18/stars-1246590_960_720.jpg");
-  background-size: cover;
   background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height:100%;
   color: white;
-  overflow-x: scroll;
-  min-height: 100%;
-  max-height: 100vh;
-  overflow-y: scroll;
   scroll-behavior: smooth;
 }
 
@@ -36,13 +32,14 @@ a {
   width: 100%;
 }
 
-
 .card {
   background: inherit;
   color: white;
 }
 
-.btn:focus, a:focus, .btn:hover {
+.btn:focus,
+a:focus,
+.btn:hover {
   outline: none;
   text-decoration: none;
   box-shadow: none;
@@ -57,3 +54,10 @@ p {
   font-size: 18px;
 }
 
+footer {
+  margin-bottom: 10px;
+}
+
+.animate__fadeIn {
+  --animate-duration: 2.5s;
+}
